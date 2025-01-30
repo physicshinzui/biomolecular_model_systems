@@ -3,8 +3,9 @@ This repo stores PDB files of biomolecular systems.
 You can use these files to validate your MD simulation set up.
 
 - Chignolin
-  - `1uao_chignolin`: 1st model in 1uao
-  - `chignolin_flat`: capped chignolin
+  - `1uao_chignolin.pdb`: 1st model in 1uao
+  - `chignolin_flat.pdb`: capped chignolin
+  - `2rvd_fixer_capped.pdb`: CLN025. Capped PDB after performing pdbfixer
 - Trypcage 
   - `1l2y_model1_trypcage.pdb`: 1st model in 1l2y
   - `trypcage_flat.pdb`: flat conformation
