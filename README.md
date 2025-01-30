@@ -2,15 +2,22 @@
 This repo stores PDB files of biomolecular systems. 
 You can use these files to validate your MD simulation set up.
 
-- folded
-  - Chignolin (1uao)
-  - Trypcage (1l2y)
-  - Calmodulin (1cll)
-  - Bcl-xL (1maz)
-- extended 
-  - Chignolin 
-  - Trypcage (1l2y)
-  - decaAla
+- Chignolin
+  - `1uao_chignolin`: 1st model in 1uao
+  - `chignolin_flat`: capped chignolin
+- Trypcage 
+  - `1l2y_model1_trypcage.pdb`: 1st model in 1l2y
+  - `trypcage_flat.pdb`: flat conformation
+- Calmodulin
+  - `1cll_calmodulin_capped.pdb`: capped conformation of 1cll.
+- Bcl-xL
+  - `1maz_capped.pdb`: capped conformation of 1maz.
+  - `1maz_capped_F143W.pdb`: capped conformation of 1maz mutated by F143W
+  - `1maz_capped_F143L.pdb`: capped conformation of 1maz mutated by F143L
+- AAQAA_3
+  - `AAQAA_3/AAQAA_3_flat.pdb`: flat conformation
+  - `AAQAA_3_helix.pdb`: alhpa-helical conformation
+  - `AAQAA_3/AAQAA_3_random.pdb`: extended conformation (made by PyMOL sculpting).
 - small 
   - diAlanine
   - Met-Enke
