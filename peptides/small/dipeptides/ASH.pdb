@@ -1,0 +1,50 @@
+ATOM      1  C   ACE     1       1.048   0.238  -0.245  1.00  0.00           C  
+ATOM      2  O   ACE     1       1.659  -0.755  -0.662  1.00  0.00           O  
+ATOM      3  CH3 ACE     1      -0.410   0.146   0.154  1.00  0.00           C  
+ATOM      4 1HH3 ACE     1      -0.529  -0.569   0.955  1.00  0.00           H  
+ATOM      5 2HH3 ACE     1      -0.762   1.110   0.490  1.00  0.00           H  
+ATOM      6 3HH3 ACE     1      -1.005  -0.170  -0.690  1.00  0.00           H  
+ATOM      7  N   ASH     2       1.662   1.368  -0.150  1.00  0.00           N  
+ATOM      8  CA  ASH     2       3.068   1.445  -0.537  1.00  0.00           C  
+ATOM      9  C   ASH     2       3.605   2.843  -0.354  1.00  0.00           C  
+ATOM     10  O   ASH     2       2.897   3.768   0.074  1.00  0.00           O  
+ATOM     11  CB  ASH     2       3.257   0.964  -2.004  1.00  0.00           C  
+ATOM     12  CG  ASH     2       4.708   0.931  -2.506  1.00  0.00           C  
+ATOM     13  OD1 ASH     2       5.615   0.587  -1.721  1.00  0.00           O  
+ATOM     14  OD2 ASH     2       4.942   1.292  -3.678  1.00  0.00           O  
+ATOM     15  HD2 ASH     2       4.882   1.595  -4.587  1.00  0.00           H  
+ATOM     16  H   ASH     2       1.178   2.188   0.189  1.00  0.00           H  
+ATOM     17  HA  ASH     2       3.648   0.780   0.131  1.00  0.00           H  
+ATOM     18 2HB  ASH     2       2.678   1.609  -2.690  1.00  0.00           H  
+ATOM     19 3HB  ASH     2       2.853  -0.052  -2.137  1.00  0.00           H  
+ATOM     20  N   NME     3       4.837   3.084  -0.652  1.00  0.00           N  
+ATOM     21  CH3 NME     3       5.376   4.423  -0.484  1.00  0.00           C  
+ATOM     22  H   NME     3       5.426   2.343  -1.002  1.00  0.00           H  
+ATOM     23 1HH3 NME     3       5.129   5.031  -1.341  1.00  0.00           H  
+ATOM     24 2HH3 NME     3       4.960   4.881   0.402  1.00  0.00           H  
+ATOM     25 3HH3 NME     3       6.450   4.378  -0.384  1.00  0.00           H  
+CONECT    1    2
+CONECT    1    3
+CONECT    1    7
+CONECT    3    4
+CONECT    3    5
+CONECT    3    6
+CONECT    7    8
+CONECT    7   16
+CONECT    8    9
+CONECT    8   11
+CONECT    8   17
+CONECT    9   10
+CONECT    9   20
+CONECT   11   12
+CONECT   11   18
+CONECT   11   19
+CONECT   12   13
+CONECT   12   14
+CONECT   14   15
+CONECT   20   21
+CONECT   20   22
+CONECT   21   23
+CONECT   21   24
+CONECT   21   25
+END
